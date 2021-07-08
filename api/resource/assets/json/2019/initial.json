@@ -1,0 +1,7 @@
+{
+	"api_server": {
+		"mopcon": "https://mopcon.org",
+		"game": "https://game.mopcon.org"
+	},
+	"enable_game": false
+}

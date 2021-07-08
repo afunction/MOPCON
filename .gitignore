@@ -1,0 +1,16 @@
+.DS_Store
+.sass-cache
+/2014_test/fire_app_log.txt
+/2014_test/config.rb
+/2019
+/2020
+/cache
+vendor/
+bower_components
+node_modules
+npm-debug.log
+.idea/
+config.php
+phinx.php
+*.cache.php
+.vscode

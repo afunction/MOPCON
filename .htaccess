@@ -1,0 +1,14 @@
+DirectoryIndex index.php index.html index.htm
+RedirectMatch 404 /\.git
+ErrorDocument 400 /err/404.php
+ErrorDocument 401 /err/404.php
+ErrorDocument 403 /err/404.php
+ErrorDocument 404 /err/404.php
+ErrorDocument 500 /err/404.php
+Options -Indexes
+
+Redirect 301 /2018/feedback.php /feedback.php
+Redirect 301 /2018/warnup-feedback.php /warnup-feedback.php
+
+# Use PHP5 Single php.ini as default
+#AddHandler application/x-httpd-php5s .php
